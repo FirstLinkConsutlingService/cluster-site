@@ -1,0 +1,58 @@
+---
+// This is the "Frontmatter" where you can write JavaScript/Logic
+const title = "Zero-Budget Community Cluster";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-16" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+		<style>
+			body { 
+				background-color: #0f172a; 
+				color: #f8fafc; 
+				font-family: 'Courier New', monospace; 
+				padding: 2rem;
+			}
+			.terminal-box {
+				border: 1px solid #334155;
+				padding: 1.5rem;
+				border-radius: 8px;
+				background: #1e293b;
+			}
+			h1 { color: #38bdf8; }
+			.hardware-tag { color: #fbbf24; font-weight: bold; }
+		</style>
+	</head>
+	<body>
+		<div class="terminal-box">
+			<h1>{title}</h1>
+			<p>> Initializing community-access portal...</p>
+			<hr style="border: 0; border-top: 1px solid #334155; margin: 1rem 0;"/>
+			
+			<h3>Current Inventory (Recycled)</h3>
+			<ul>
+				<li><span class="hardware-tag">[NODE 01]</span> System76 Meerkat (Head Node)</li>
+				<li><span class="hardware-tag">[NODE 02]</span> Pending Donation...</li>
+			</ul>
+			
+			<p style="margin-top: 2rem; font-size: 0.8rem; color: #94a3b8;">
+				Built with 0 budget using Ubuntu 24.04 & Astro.
+			</p>
+
+			<h3>Hardware Hall of Fame</h3>
+				<table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+  				<tr style="border-bottom: 1px solid #334155; text-align: left;">
+    			<th style="padding: 0.5rem;">Component</th>
+    			<th style="padding: 0.5rem;">Donor</th>
+  				</tr>
+  <tr>
+    <td style="padding: 0.5rem;">Core i7 CPU</td>
+    <td style="padding: 0.5rem;">Anonymous Member</td>
+  </tr>
+</table>
+		</div>
+	</body>
+</html>
