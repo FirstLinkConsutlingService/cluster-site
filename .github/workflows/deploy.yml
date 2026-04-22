@@ -22,5 +22,7 @@ jobs:
 
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          node-version: 22 
         # This "action" handles everything: 
         # It installs Node, runs 'npm install', and builds your site.
